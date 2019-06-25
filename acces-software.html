@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="M Inspiration Info Tech" content="Our Team Builds Bespoke Applications To Your Requirements, All With The Same Quality Of Design And Performance You Would Expect From A Packaged Product.">
+    <meta name="M Inspiration Info Tech | Access Software " content="20 Years of Experience in Application Development And Application Implmentation.">
+    <meta name="og:title" property="og:title" content="Inspiration Info Tech India">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inspiration Info Tech | Access Software</title>
+
+    <link rel="stylesheet" href="css/insp-receiptprint.css">
+    <link rel="stylesheet" href="css/insp-pcard.css">
+    <link rel="stylesheet" href="css/insp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <link rel="stylesheet" href="css/our-client.css">
+    <link rel="stylesheet" href="css/our-clientSaid.css">
+    <link rel="stylesheet" href="css/inspt-testimonial.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/Services.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="css/insp-footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main-nav-sprt.css">
+
+    <!-- End WOWSlider.com HEAD section -->
+    <style>
+        body {
+            overflow: hidden;
+        }
+        /* Preloader */
+        
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            bottom: 0;
+            background-color: #Fff;
+            /* change if the mask should have another color then white */
+            z-index: 99;
+            /* makes sure it stays on top */
+        }
+        
+        #status {
+            width: 400px;
+            height: 200px;
+            position: absolute;
+            left: 40%;
+            /* centers the loading animation horizontally one the screen */
+            top: 50%;
+            /* centers the loading animation vertically one the screen */
+            background-image: url(../img/ezgif-2-6d0b072c3d3f.gif);
+            /* path to your loading animation */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: -100px 0 0 -100px;
+            /* is width and height divided by two */
+        }
+    </style>
+    <script>
+        $(window).on('load', function() { // makes sure the whole site is loaded 
+            $('#status').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(350).css({
+                'overflow': 'visible'
+            });
+        })
+    </script>
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 50) {
+                $('.scrolltop:hidden').stop(true, true).fadeIn();
+            } else {
+                $('.scrolltop').stop(true, true).fadeOut();
+            }
+        });
+        $(function() {
+            $(".scroll").click(function() {
+                $("html,body").animate({
+                    scrollTop: $(".thetop").offset().top
+                }, "1000");
+                return false
+            })
+        })
+    </script>
+    <style>
+        .testheight {
+            height: 1200px;
+            font-size: 20px;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        
+        .scrolltop {
+            display: none;
+            width: 100%;
+            margin: 0 auto;
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+        }
+        
+        .scroll {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            background: #b2b2b2;
+            background: rgba(178, 178, 178, 0.7);
+            padding: 20px;
+            text-align: center;
+            margin: 0 0 0 0;
+            cursor: pointer;
+            transition: 0.5s;
+            -moz-transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+        }
+        
+        .scroll:hover {
+            background: rgba(178, 178, 178, 1.0);
+            transition: 0.5s;
+            -moz-transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+        }
+        
+        .scroll:hover .fa {
+            padding-top: -10px;
+        }
+        
+        .scroll .fa {
+            font-size: 30px;
+            margin-top: -5px;
+            margin-left: 1px;
+            transition: 0.5s;
+            -moz-transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='scrolltop'>
+        <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+    </div>
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <div class="banner-wrap">
+        <header class="insp-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="insp-logo animated slideInLeft">
+                            <img src="img/icons/i-logo.png" class="img img-responsive hvr-float-shadow" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-4 col-sm-6  col-xs-12 slideInRight animated">
+                        <div class="insp-search">
+                            <div class="search-block">
+                                <input type="search" placeholder="Search">
+                                <div class="insp-icon"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="insp-flag">
+                            <ul class="instf-cntrl">
+                                <li>
+                                    <a href="#"> <img src="img/united-states.png" class="img img-responsive hvr-glow" alt=""> </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <img src="img/united-kingdom.png" class="img img-responsive hvr-glow" alt=""> </a>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <style>
+            .dropdown-submenu {
+                position: relative;
+            }
+            
+            .dropdown-submenu>.dropdown-menu {
+                top: 0;
+                left: 100%;
+                margin-top: -6px;
+                margin-left: -1px;
+                -webkit-border-radius: 0 6px 6px 6px;
+                -moz-border-radius: 0 6px 6px;
+                border-radius: 0 6px 6px 6px;
+            }
+            
+            .dropdown-submenu:hover>.dropdown-menu {
+                display: block;
+            }
+            
+            .dropdown-submenu>a:after {
+                display: block;
+                content: " ";
+                float: right;
+                width: 0;
+                height: 0;
+                border-color: transparent;
+                border-style: solid;
+                border-width: 5px 0 5px 5px;
+                border-left-color: #ccc;
+                margin-top: 5px;
+                margin-right: -10px;
+            }
+            
+            .dropdown-submenu:hover>a:after {
+                border-left-color: #fff;
+            }
+        </style>
+
+        <div class="main-nav-insp">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--Navbar-->
+                    <nav class="navbar navbar-expand-lg main-nav-insp-bgsprt navbar-dark primary-color">
+
+                        <!-- Navbar brand -->
+
+
+                        <!-- Collapse button -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+                        <!-- Collapsible content -->
+                        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                            <!-- Links -->
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item mninsp-sprt-li">
+                                    <a class="nav-link" href="index.html">Home
+        <span class="sr-only">(current)</span>
+      </a>
+                                </li>
+                                <li class="nav-item dropdown mninsp-sprt-li">
+                                    <a href="#" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle">Products</a>
+                                    <ul class="dropdown-menu mr-auto z-depth-1">
+                                        <li class="dropdown-item dropdown-submenu">
+                                            <a href="#" data-toggle="dropdown" class="dropdown-toggle      ">Retail Solution</a>
+                                            <ul class="dropdown-menu mr-auto  z-depth-1">
+                                                <li class="dropdown-item   ">
+                                                    <a href="p-pos.html" class="     ">POS (Point of Sale) </a>
+                                                </li>
+                                                <li class="dropdown-item   ">
+                                                    <a href="hp-pos.html" class="     ">HP POS Machines</a>
+                                                </li>
+                                                <li class="dropdown-item   ">
+                                                    <a href="receipt-printers.html" class="     ">Receipt Printers </a>
+                                                </li>
+                                                <li class="dropdown-item   ">
+                                                    <a href="barcode-scanners.html" class="     ">Barcode Scanners</a>
+                                                </li>
+                                                <li class="dropdown-item   ">
+                                                    <a href="cash-draw.html" class="     ">Cash Drawers </a>
+                                                </li>
+                                                <li class="dropdown-item   ">
+                                                    <a href="barcode-print.html" class="     ">Barcode Printers</a>
+                                                </li>
+                                                <li class="dropdown-item   ">
+                                                    <a href="data-colletors.html" class="     ">Data Collectors</a>
+                                                </li>
+                                                <li class="dropdown-item   ">
+                                                    <a href="retail-software.html" class="     ">Retail Software</a>
+                                                </li>
+                                                <li class="dropdown-item   ">
+                                                    <a href="mobile-printer.html" class="     ">Mobile Printer</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-item dropdown-submenu">
+                                            <a href="#" data-toggle="dropdown" class="dropdown-toggle      ">Access Control</a>
+                                            <ul class="dropdown-menu mr-auto  z-depth-1">
+                                                <li class="dropdown-item   ">
+                                                    <a href="biometric-devices.html" class="     ">Biometric Devices </a>
+                                                </li>
+                                                <li class="dropdown-item   ">
+                                                    <a href="door-access.html" class="     ">Door Access Control</a>
+                                                </li>
+                                                <li class="dropdown-item   ">
+                                                    <a href="acces-software.html">Software</a>
+                                                </li>
+                                                <li class="dropdown-item ">
+                                                    <a href="cctv-system.html" class=" ">CCTV System</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+
+
+                                <li class="nav-item dropdown mninsp-sprt-li">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="services.html"> Software Services
+                                        </a>
+                                        <a class="dropdown-item" href="services-detail.html">Python and JS Development
+                                </a>
+                                        <a class="dropdown-item" href="mobile-dev.html">Mobile Development
+                                </a>
+                                        <a class="dropdown-item" href="product-design.html">PRODUCT DESIGN
+                                </a>
+                                        <a class="dropdown-item" href="software-testing.html">SOFTWARE TESTING
+
+                                    </a>
+                                        <a class="dropdown-item" href="devops.html">DevOps
+
+                                        </a>
+                                        <a class="dropdown-item" href="react-native.html">REACT NATIVE
+
+                                            </a>
+                                    </div>
+                                </li>
+                                <li class="nav-item mninsp-sprt-li">
+                                    <a class="nav-link" href="about-insp.html">About Us</a>
+                                </li>
+                                <li class="nav-item mninsp-sprt-li">
+                                    <a class="nav-link" href="career-insp.html">Careers</a>
+                                </li>
+                                <li class="nav-item mninsp-sprt-li">
+                                    <a class="nav-link" href="projects-insp.html">Projects</a>
+                                </li>
+                                <li class="nav-item mninsp-sprt-li">
+                                    <a class="nav-link" href="contact.html">Contacts</a>
+                                </li>
+                                <li class="nav-item dropdown mninsp-sprt-li ">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Legacy of M-Inspiration</a>
+                                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="product-line.html"> Product Line  </a>
+                                        <a class="dropdown-item" href="gm-speaks.html">Gm Speeks  </a>
+                                    </div>
+                                </li>
+
+
+
+                            </ul>
+                            <!-- Links -->
+
+
+                        </div>
+                        <!-- Collapsible content -->
+
+                    </nav>
+                    <!--/.Navbar-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="insp-receipt-printers-wrrape">
+
+                <div class="insprprint-details">
+                    <div class="insprprint-head">
+                        <h2 class="insprprinth-heading">
+                            Access SOFTWARE
+                        </h2>
+                    </div>
+                    <div class="insprprint-content">
+                        <!-- insp-pcard -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Card Light -->
+                                <div class="card">
+
+                                    <!-- Card image -->
+                                    <div class="view overlay">
+                                        <img class="card-img-top" src="img/sale-software/Parking-Management.jpg" alt="Card image cap">
+                                        <a>
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+
+                                    <!-- Card content -->
+                                    <div class="card-body">
+
+                                        <!-- Social shares button -->
+                                        <a class="activator  waves-effect waves-light mr-4 pull-right inspcard-icon-sprt"><i class="fas fa-share-alt inspnew-pro" ></i></a>
+                                        <!-- Title -->
+                                        <h4 class="card-title">Car Parking Management</h4>
+                                        <hr>
+                                        <!-- Text -->
+                                        <p class="card-text">
+
+                                            Control Car Parks with License Plate Recognition System. Easy & Quicker Parking for your Customers. Automated Access Control at Low Costs. Accounts Payable. Inventory. Purchase Order.
+
+                                        </p>
+                                        <!-- Link -->
+                                        <a href="#!" class="black-text d-flex justify-content-end">
+                                            <button class="btn btn-card-serskill waves-effect waves-light">
+                                <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
+                            </button>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+                                <!-- Card Light -->
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Card Light -->
+                                <div class="card">
+
+                                    <!-- Card image -->
+                                    <div class="view overlay">
+                                        <img class="card-img-top" src="img/sale-software/Cardpresso-Software.jpg" alt="Card image cap">
+                                        <a>
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+
+                                    <!-- Card content -->
+                                    <div class="card-body">
+
+                                        <!-- Social shares button -->
+                                        <a class="activator  waves-effect waves-light mr-4 pull-right inspcard-icon-sprt"><i class="fas fa-share-alt inspnew-pro" ></i></a>
+                                        <!-- Title -->
+                                        <h4 class="card-title">Cardpresso Software</h4>
+                                        <hr>
+                                        <!-- Text -->
+                                        <p class="card-text">
+
+                                            Professional card designer for all types of badges. Ease-of-use. User friendly. Available in 6 editions and 18 languages.
+                                        </p>
+                                        <!-- Link -->
+                                        <a href="#!" class="black-text d-flex justify-content-end">
+                                            <button class="btn btn-card-serskill waves-effect waves-light">
+                                <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
+                            </button>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!-- Card Light -->
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Card Light -->
+                                <div class="card">
+
+                                    <!-- Card image -->
+                                    <div class="view overlay">
+                                        <img class="card-img-top" src="img/sale-software/Virdi-Software.jpg" alt="Card image cap">
+                                        <a>
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+
+                                    <!-- Card content -->
+                                    <div class="card-body">
+
+                                        <!-- Social shares button -->
+                                        <a class="activator  waves-effect waves-light mr-4 pull-right inspcard-icon-sprt"><i class="fas fa-share-alt inspnew-pro" ></i></a>
+                                        <!-- Title -->
+                                        <h4 class="card-title">Virdi Software </h4>
+                                        <hr>
+                                        <!-- Text -->
+                                        <p class="card-text">
+
+                                            Aggregated Time & Attendance Data. Work Type Setting. Irregular Work Setting. Wizard Function.
+                                        </p>
+                                        <!-- Link -->
+                                        <a href="#!" class="black-text d-flex justify-content-end">
+                                            <button class="btn btn-card-serskill waves-effect waves-light">
+                                <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
+                            </button>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+                                <!-- Card Light -->
+                            </div>
+
+                            <div class="col-md-4">
+                                <!-- Card Light -->
+                                <div class="card">
+
+                                    <!-- Card image -->
+                                    <div class="view overlay">
+                                        <img class="card-img-top" src="img/sale-software/Gym-Management.jpg" alt="Card image cap">
+                                        <a>
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+
+                                    <!-- Card content -->
+                                    <div class="card-body">
+
+                                        <!-- Social shares button -->
+                                        <a class="activator  waves-effect waves-light mr-4 pull-right inspcard-icon-sprt"><i class="fas fa-share-alt inspnew-pro" ></i></a>
+                                        <!-- Title -->
+                                        <h4 class="card-title">Gym Management Software</h4>
+                                        <hr>
+                                        <!-- Text -->
+                                        <p class="card-text">
+
+                                            Reliable, Powerful & Easy to Use. For Gym Owners & Trainers. Equipped with the best of Membership Management Tools. Check-in & Scheduling, Point of Sale & Automated Billing all made easy. </p>
+                                        <!-- Link -->
+                                        <a href="#!" class="black-text d-flex justify-content-end">
+                                            <button class="btn btn-card-serskill waves-effect waves-light">
+                                <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
+                            </button>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+                                <!-- Card Light -->
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Card Light -->
+                                <div class="card">
+
+                                    <!-- Card image -->
+                                    <div class="view overlay">
+                                        <img class="card-img-top" src="img/sale-software/Time-Attendance.jpg" alt="Card image cap">
+                                        <a>
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+
+                                    <!-- Card content -->
+                                    <div class="card-body">
+
+                                        <!-- Social shares button -->
+                                        <a class="activator  waves-effect waves-light mr-4 pull-right inspcard-icon-sprt"><i class="fas fa-share-alt inspnew-pro" ></i></a>
+                                        <!-- Title -->
+                                        <h4 class="card-title">Time Attendance & Access Control Software</h4>
+                                        <hr>
+                                        <!-- Text -->
+                                        <p class="card-text">
+                                            Put effective control over your staff attendance.. Discovers sincere and careless staff too. Detailed report on delays, overtime, coming too early and coming too late. Integrates with payroll system.
+
+                                        </p>
+                                        <!-- Link -->
+                                        <a href="#!" class="black-text d-flex justify-content-end">
+                                            <button class="btn btn-card-serskill waves-effect waves-light">
+                            <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
+                        </button>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+                                <!-- Card Light -->
+                            </div>
+                        </div>
+                        <!-- row end -->
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end card data  -->
+
+    <div class="insp-updat-footer-wrap">
+        <!--     insp-updates -->
+        <div class="insp-updates">
+            <div class="container">
+                <div class="row insp-formt-sprt" style="display: block !important">
+                    <div class="insp-formt">
+                        <h3 class="inspft-text"> SIGN UP FOR UPDATES!
+                        </h3>
+                        <span class="inspft-subtext"> Subscribe to our Newsletter and get notified about Inspiration Info Tech Electronic Industries Products and Promotions
+                            </span>
+                        <div class="insp-clear"></div>
+                        <!-- Material input -->
+                        <!-- Material input -->
+                        <div class="md-form">
+                            <i class="fas fa-envelope prefix"></i>
+                            <input type="email" id="inputValidationEx" class="form-control validate">
+                            <label for="inputValidationEx" data-error="wrong" data-success="right">Type your email</label>
+                        </div>
+                        <!-- Material input -->
+                        <div class="md-form">
+                            <i class="fas fa-mobile prefix"></i>
+                            <input type="email" id="inputValidationEx" class="form-control validate">
+                            <label for="inputValidationEx" data-error="wrong" data-success="right">Mobile Number</label>
+                        </div>
+                        <button class="btn btn-card-serskill waves-effect waves-light"> Subscribe </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end insp-updates -->
+
+        <div class="border-line">
+            <div class="brdr-line-blue"></div>
+            <div class="brdr-line-orange"></div>
+        </div>
+
+        <!-- insp-footer -->
+        <div class="insp-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6 fch-insp-data-sprt">
+                        <div class="fch-insp-data">
+                            <div class="fch-inspd-head">
+                                Retail Solutions
+                            </div>
+                            <div class="insp-clear"></div>
+                            <div class="fch-inspd-content">
+                                <ul class="inpdc-data">
+                                    <li class="inpdcd-icon">
+                                        <div class="inpdcd-iccd"></div>
+                                        <a class="inpdcd-name" href="p-pos.html"> POS Machines </a>
+                                    </li>
+                                    <li class="inpdcd-icon">
+                                        <div class="inpdcd-iccd"></div>
+                                        <a class="inpdcd-name" href="cash-draw.html">Cash Drawers </a>
+                                    </li>
+                                    <li class="inpdcd-icon">
+                                        <div class="inpdcd-iccd"></div>
+                                        <a class="inpdcd-name" href="receipt-printers.html"> Receipt Printers </a>
+                                    </li>
+                                    <li class="inpdcd-icon">
+                                        <div class="inpdcd-iccd"></div>
+                                        <a class="inpdcd-name" href="barcode-scanners.html"> Barcode Scanners </a>
+                                    </li>
+                                    <li class=" inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="barcode-print.html"> Barcode Printers </a>
+                                    </li>
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="Data Collectors"> Data Collectors </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6 fch-insp-data-sprt ">
+                        <div class="fch-insp-data ">
+                            <div class="fch-inspd-head ">
+                                Retail Solutions
+                            </div>
+                            <div class="insp-clear "></div>
+                            <div class="fch-inspd-content ">
+                                <ul class="inpdc-data ">
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="hp-pos.html">Hp POS Machines </a>
+                                    </li>
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="retail-software.html"> Retail Software </a>
+                                    </li>
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="mobile-printer.html"> Mobile Printer</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-3 col-sm-3 col-xs-6 fch-insp-data-sprt ">
+                        <div class="fch-insp-data ">
+                            <div class="fch-inspd-head ">
+                                Access Control Solutions
+                            </div>
+                            <div class="insp-clear "></div>
+                            <div class="fch-inspd-content ">
+                                <ul class="inpdc-data ">
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="biometric-devices.html"> Biometric Devices </a>
+                                    </li>
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="# "> Door Access Control </a>
+                                    </li>
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="acces-software.html"> Software </a>
+                                    </li>
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="cctv-system.html"> CCTV System </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6 fch-insp-data-sprt ">
+                        <div class="fch-insp-data ">
+                            <div class="fch-inspd-head ">
+                                Services
+                            </div>
+                            <div class="insp-clear "></div>
+                            <div class="fch-inspd-content ">
+                                <ul class="inpdc-data ">
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="services-detail.html"> Python & Js</a>
+                                    </li>
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="mobile-dev.html"> Mobile Development </a>
+                                    </li>
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="product-design.html"> Product Design </a>
+                                    </li>
+                                    <li class="inpdcd-icon ">
+                                        <div class="inpdcd-iccd "></div>
+                                        <a class="inpdcd-name " href="product-design.html"> DevOPS </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End insp-footer -->
+        <!--Footer-->
+        <div class="insp-footer ">
+            <footer>
+                <div id="footer-area" style="padding: 23px 0 5px 0;    ">
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-md-3 col-sm-6 " style="padding-right:0px;">
+                                <div class="single-footer ">
+                                    <h3 class="inspf-sfh " style="margin-bottom:0px;">Inspiration Info Tech </h3>
+                                    <p class="inspf-sfp ">
+                                        Inspiration Info Tech was established in the year 2015 as a sole propriety establishment and converted to a Limited Liability Company under the nameInspiration Info Tech Electronic Industries Company.
+                                    </p>
+                                    <ul class="footer-social footer-social-sprt list-inline ">
+                                        <li>
+                                            <a href="# "> <i class="fa fa-facebook "></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="# "> <i class="fa fa-twitter "></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="# "> <i class="fa fa-pinterest "></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="# "> <i class="fa fa-linkedin "></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="# "> <i class="fa fa-youtube "></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 " style="padding-right:0px;">
+                                <div class="single-footer ">
+                                    <h3 class="inspf-sfh "> Our Contact </h3>
+                                    <ul class="link-area ">
+                                        <li>
+                                            <a href="# "> <i class="fa fa-phone "></i> +91 9550 345571 </a>
+                                        </li>
+                                        <li>
+                                            <a href="# " style="font-size: 12px;"> <i class="fa fa-envelope "></i> info@minspirationinfotech.com </a>
+                                        </li>
+                                        <li>
+                                            <a href="# "> <i class="fa fa-map "></i> 500089, Hyderabad, TS </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://minspirationinfotech.com/"> <i class="fa fa-globe "></i> minspirationinfotech.com
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 ">
+                                <div class="single-footer ">
+                                    <h3 class="inspf-sfh "> Support </h3>
+                                    <ul class="link-area ">
+
+                                        <li>
+                                            <a href="career-insp.html"> <i class="fa fa-long-arrow-right "></i> Careers </a>
+                                        </li>
+                                        <li>
+                                            <a href="projects-insp.html"> <i class="fa fa-long-arrow-right "></i> Projects </a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html"> <i class="fa fa-long-arrow-right "></i> Contact </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 ">
+                                <div class="single-footer ">
+                                    <h3 class="inspf-sfh "> Services </h3>
+                                    <ul class="link-area ">
+
+                                        <li>
+                                            <a class="inpdcd-name " href="services-detail.html"> <i class="fa fa-long-arrow-right "></i> Python & Js</a>
+                                        </li>
+                                        <li>
+                                            <a class="inpdcd-name " href="mobile-dev.html"> <i class="fa fa-long-arrow-right "></i> Mobile Development </a>
+                                        </li>
+                                        <li>
+                                            <a class="inpdcd-name " href="product-design.html"> <i class="fa fa-long-arrow-right "></i> Product Design </a>
+                                        </li>
+                                        <li>
+                                            <a class="inpdcd-name " href="product-design.html"> <i class="fa fa-long-arrow-right "></i> DevOPS </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-md-12 ">
+                                <div class="copyright-area text-center " style="    background: #fff;">
+                                    <p style="color:#6C63FF">&copy; All Right Reserved Inspiration Info Tech</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!--Footer-->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

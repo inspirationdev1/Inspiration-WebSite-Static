@@ -1,0 +1,135 @@
+<head>
+
+    <style>
+        /* * {
+            box-sizing: border-box;
+            transition: .33s ease all;
+            font-family: "Open Sans";
+            line-height: 1.4;
+        }
+         */
+        
+        div.inspkm-container {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(#FB8E2A, #FDC154);
+        }
+        
+        div.inspkm-card {
+            height: 423px;
+            width: 420px;
+            background-color: white;
+            box-shadow: 0 8px 16px rgba(black, .45);
+            border-radius: 8px;
+        }
+        
+        div.inspkm-card-img-container {
+            overflow: hidden;
+            position: relative;
+            background-color: #262626;
+        }
+        
+        div.inspkm-card-img {
+            transition: .45s ease all;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: url("../img/icons/lappy.png");
+            background-position: center;
+            background-size: 100%;
+            height: 200px;
+            width: 400px;
+            padding: 30px;
+            color: white;
+        }
+        
+        .inspkm-card-img span {
+            -webkit-font-smoothing: antialiased;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 14px;
+            position: relative;
+        }
+        
+        .inspkm-card-img h1 {
+            -webkit-font-smoothing: antialiased;
+            font-family: "bodoni-urw";
+            font-weight: normal;
+            font-size: 36px;
+            margin: 0;
+            position: relative;
+        }
+        
+        div.inspkm-card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: auto;
+        }
+        
+        b.inspkmcb-brandn {
+            font-weight: 600;
+            display: block;
+            /* margin-bottom: 15px; */
+            text-shadow: 2px 2px 4px #000000;
+            margin: 15px 15px -5px;
+        }
+        
+        div.inspkm-card-link {
+            border-top: 1px solid #cdcdcd;
+            padding: 0 0 20px;
+            background: #262626;
+        }
+        
+        a.a-inspkm-card-link {
+            -webkit-font-smoothing: antialiased;
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #2D58C4;
+            font-weight: bold;
+            text-align: center;
+            font-size: 14px;
+            padding-top: 12px;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .inspkm-card-img-container:hover .inspkm-card-img {
+            background-size: 175%;
+        }
+    </style>
+</head>
+
+<div class="inspkm-container">
+    <div class="inspkm-card">
+        <div class="inspkm-card-img-container">
+            <div class="inspkm-card-img">
+                <span class="date fade-out">May 7, 2019</span>
+                <h1 class="fade-out">Access Control</h1>
+            </div>
+        </div>
+        <div class="inspkm-card-body">
+            <b class="inspkmcb-brandn">Brand Name</b>
+            <ul>
+                <li>
+                    15.6” POS TFT LCD Touch screen Monitor
+                </li>
+                <li>
+                    Stable and solid qualified base
+                </li>
+                <li>
+                    Flat touch panel design
+                </li>
+            </ul>
+
+            <div class="inspkm-card-link">
+                <a href="#0" class="a-inspkm-card-link">Read More</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
