@@ -1,0 +1,40 @@
+form.insprc-form {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 8px;
+}
+
+.insp-add-card {
+    background: #6C63FF;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #6C63FF);
+    background: linear-gradient(to right, #6dd5ed, #6C63FF);
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 7px 0px #888888;
+}
+
+.btn-ctpint {
+    background: #6C63FF;
+    border: none;
+}
+
+.insprc-head-btn {
+    background: #6C63FF;
+    padding: 7px 15px;
+    width: 260px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px 0px #888888;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #fff;
+}

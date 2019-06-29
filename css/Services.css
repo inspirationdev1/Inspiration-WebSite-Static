@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Inconsolata|Noto+Sans+KR|Source+Sans+Pro&display=swap');
+.serc-topic-header-insp {
+    text-align: center;
+    padding: 20px 0px 40px;
+}
+
+h1.servcthinsp-h1 {
+    font-weight: 900;
+    letter-spacing: 0.8px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1.services-bfrsprt::before {
+    content: 'Services';
+    position: absolute;
+    top: 2;
+    color: rgba(0, 0, 0, 0.47);
+    /* left: 0; */
+    opacity: 0.1;
+    right: 35%;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+
+/* servname-insp */
+
+.servname-insp {
+    background: #6C63FF;
+    background: -webkit-linear-gradient(to right, #1FC0C0, #6C63FF);
+    background: linear-gradient(to right, #1FC0C0, #6C63FF);
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.servnamskil-card {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 350px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.servnamskil-card:hover {
+    -webkit-box-shadow: 0 8px 20px 1px rgba(0, 0, 0, .3);
+    box-shadow: 0 8px 20px 1px rgba(0, 0, 0, .3);
+    transform: scale(1.1);
+}
+
+a.servnamskil-card-link {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.srnach-text {
+    padding-top: 11px;
+}
+
+.srnach-text>p {
+    font-family: 'Fira Sans', sans-serif;
+    color: #444;
+    font-size: 23px;
+    margin-top: -10px;
+}
+
+.srnaski-card-Desc {
+    height: 155px;
+}
+
+.srnaski-card-Desc>p {
+    font-size: 20px;
+    color: #000;
+}
+
+button.btn-card-serskill {
+    background: #6C63FF;
+    background: -webkit-linear-gradient(to right, #1FC0C0, #6C63FF);
+    background: linear-gradient(to right, #1FC0C0, #6C63FF);
+    color: #fff;
+}
+
+button.btn-card-serskill:hover {
+    color: #fff;
+}
+
+
+/* srnaski-card-Desc */
+
+.srnaski-card-Desc {
+    margin: 0px 10px;
+}
+
+img.img-servinscard {
+    height: 100px !important;
+    width: auto;
+}
+
+
+/* wwusserv-card */
+
+.wwus-serv-insp-content {
+    padding: 5px 5px 45px 5px;
+}
+
+.wwusserv-card {
+    width: 100%;
+    padding: 20px;
+    -webkit-box-shadow: 0 8px 20px 1px rgba(0, 0, 0, .3);
+    box-shadow: 0 8px 20px 1px rgba(0, 0, 0, .3);
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.wwusserv-card:hover {
+    -webkit-box-shadow: 0 8px 20px 1px rgba(0, 0, 0, .3);
+    box-shadow: 0 8px 20px 1px rgba(0, 0, 0, .3);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.wwusserv-card-head {
+    width: 170px;
+    height: 80px;
+}
+
+.wwusserv-card-head-sprt>img {
+    height: 100px !important;
+}
+
+.wwusserv-card-desc {
+    width: 170px;
+    height: 48px;
+}
+
+.wwusserv-card-foot {
+    width: 170px;
+    height: 25px;
+}
+
+.wwusserv-card-desc {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 21px;
+}
+
+a.wwusserv-card-flink {
+    text-decoration: none;
+    color: #09b3bf;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+img.img-wwusserv-card-h {
+    height: 80px;
+    width: auto !important;
+}
+
+.our-tech-card-footer {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+
+/* our-tech-serv-insp-content */
+
+.our-tech-serv-insp-content {
+    padding: 5px 5px 45px 5px;
+}
+
+.ourcsub-skills-serv {
+    padding: 5px 5px 45px 5px;
+}
+
+p.ourscubskil-serv-sm-text {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+.ourscubskil-serv-smcard-sprt {
+    width: 92px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* srnaski-card-title */
+
+
+/* standlone-card-link */
+
+a.standlone-card-link {
+    text-decoration: none;
+}
+
+.srnaski-card-title>strong {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #444;
+}
+
+.standlone-card-Desc {
+    margin: 16px 10px;
+    height: 80px;
+}
+
+.standlone-card-sprt {
+    height: 340px;
+}
+
+img.standlone-card-img {
+    height: 118px !important;
+    width: 135px !important;
+}
+
+.footer-social-sprt {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul.footer-social-sprt>li {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+ul.footer-social-sprt>li>a {
+    padding-right: 5px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+ul.footer-social-sprt>li>a>i {
+    color: #337ab7 !important;
+    text-decoration: none;
+}
+
+
+/* media query */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    h1.services-bfrsprt::before {
+        content: 'Services';
+        position: absolute;
+        top: 2;
+        left: 25% !important;
+    }
+    .srnaski-card-Desc {
+        margin: 0px;
+    }
+    .wwusserv-card {
+        width: 109%;
+        padding: 5px 0px;
+    }
+    .wwusserv-card-head {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+@media only screen and (max-width: 600px) {
+    .servban-contdesc-maintext>p {
+        text-align: center;
+    }
+}

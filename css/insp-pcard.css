@@ -1,0 +1,80 @@
+.container-sprt {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(#FB8E2A, #FDC154); */
+}
+
+.insp-pcard {
+    height: auto;
+    max-height: 527px;
+    width: 315px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.insp-pc-body {
+    height: 150px;
+    overflow: hidden;
+}
+
+.insp-pc-head {
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insp-pchs-caption {
+    padding-bottom: 0px !important;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    background: rgba(0, 0, 0, 0.4);
+    padding-top: 0px !important;
+}
+
+img.insp-pchs-img {
+    width: 100%;
+}
+
+.insp-pc-title {}
+
+
+/* insppcb-list-item */
+
+li.insppcb-list-item {
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+}
+
+ul.insppcb-list {
+    padding: 7px 10px;
+}
+
+.insp-pc-footer {
+    width: 100%;
+}
+
+button.btn-insppc-readmore {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: none;
+    background: #6C63FF;
+    color: #fff;
+    font-size: 16px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-family: 'Kanit', sans-serif;
+}

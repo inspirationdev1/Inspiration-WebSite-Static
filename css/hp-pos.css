@@ -1,0 +1,64 @@
+.hp-pos-content {
+    background-image: url(../img/hp-bg.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 40px 5px;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hppos-wrap {
+    width: 80%;
+}
+
+.hp-pos-content-first {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.hppos-cf-items {
+    height: 100px;
+    width: 269px;
+    padding: 30px 45px;
+    margin: 15px 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    line-height: 25.76px;
+    color: #fff;
+}
+
+a.hppos-cf-itemslink {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* hp-pos-content-text */
+
+.hp-pos-content-text {
+    padding: 50px 0px;
+}
+
+div.hpposctc-content {
+    margin-bottom: 25px;
+}
+
+div.hpposctc-content>span {
+    font-size: 17px;
+    line-height: 25.76px;
+    color: #444444;
+    text-align: justify;
+}
+
+.hppos-features-banner {
+    width: 100%;
+    height: auto;
+}

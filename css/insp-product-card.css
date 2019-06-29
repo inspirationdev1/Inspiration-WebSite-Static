@@ -1,0 +1,133 @@
+.insppc-data {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'poppins', sans-serif;
+    background: #070c24;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    height: 600px;
+    background: #fff;
+    margin: 20px;
+}
+
+div.insp-imgBx {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #006dbc;
+}
+
+div.insp-imgBx:before {
+    content: 'Brand';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #000;
+    opacity: 0.1;
+    font-size: 6em;
+    font-weight: 800;
+}
+
+div.insp-imgBx>img {
+    position: relative;
+    width: 700px;
+    transform: rotate(-20deg);
+}
+
+div.insp-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+h2.inspdc-h {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    line-height: 0.8em;
+    color: #444;
+}
+
+span.inspdch-subh {
+    font-size: 0.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+}
+
+p.inspdch-pc {
+    max-width: 85%;
+    margin-left: 25%;
+    color: #333;
+    font-size: 15px;
+}
+
+h3.inspdc-price {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: #a2a2a2;
+    float: left;
+}
+
+button.insp-buy-btn {
+    background: #006dbc;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 15px 20px;
+    margin-top: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: 1px;
+    font-weight: 600;
+    border-radius: 40px;
+    float: right;
+    cursor: pointer;
+}
+
+@media(max-width:1080px) {
+    .container {
+        height: auto;
+    }
+    div.insp-imgBx {
+        padding: 40px;
+        box-sizing: border-box;
+        width: 100% !important;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+    }
+    div.insp-imgBx>img {
+        left: initial;
+        max-width: 100%;
+        transform: rotate(0deg);
+    }
+    div.insp-details {
+        width: 100% !important;
+        height: auto;
+        padding: 20px;
+    }
+    p.inspdch-pc {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}

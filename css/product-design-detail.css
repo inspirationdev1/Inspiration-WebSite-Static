@@ -1,0 +1,9 @@
+.servdet-banner-product-design {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-image: url("../dev-img/product-design/product-design-ux-services-2.png"), linear-gradient(to right, rgba(31, 192, 192, 0.911), rgba(108, 99, 255, 0.79));
+    background-blend-mode: overlay;
+    background-position: right;
+    background-repeat: no-repeat;
+}

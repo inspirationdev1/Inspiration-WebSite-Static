@@ -1,0 +1,46 @@
+.gm-speak-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmspeakimg-space {
+    width: 100%;
+    height: 282px;
+    box-shadow: -1px 1px 15px -2px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    background: #2193b0;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    margin-top: 20%;
+}
+
+.gm-speak-wrrap {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-shadow: -1px 1px 15px -2px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    background: none;
+}
+
+h3.gm-speak-headt {
+    font-size: 24px;
+    line-height: 31.2px;
+    color: #000000;
+    opacity: 60.0%;
+    margin-top: 0px;
+}
+
+.gm-speak-text {
+    padding: 5px 0px;
+}
+
+.gm-speak-text>p {
+    font-size: 15px;
+    line-height: 25.76px;
+    color: #2b2b2b;
+    font-family: 'Catamaran', sans-serif;
+}

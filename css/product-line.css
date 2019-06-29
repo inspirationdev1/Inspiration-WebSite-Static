@@ -1,0 +1,30 @@
+.proline-content {
+    margin: 0px -28px -35px -22px;
+    background: #f3f3f3;
+    padding: 12px 0 12px 0;
+    border-radius: 8px;
+}
+
+.prolinecon-first {
+    background: url(../img/suprt-img/product-line-bg.jpg);
+    height: 610px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prolinecon-sec {
+    background: url(../img/suprt-img/retail-bg.jpg);
+    height: 610px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prolinecon-third {
+    background: url(../img/suprt-img/cashier.jpg);
+    height: 610px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

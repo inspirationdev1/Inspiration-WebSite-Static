@@ -1,0 +1,127 @@
+.servdet-banner {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-image: url("../dev-img/python-js-development-services-laptop-2.png"), linear-gradient(to right, rgba(31, 192, 192, 0.911), rgba(108, 99, 255, 0.79));
+    background-blend-mode: overlay;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.servban-head {
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+
+h1.servbanh-heading {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    font-size: 60px;
+}
+
+.servban-cont-img {
+    padding: 5px 15px;
+    width: 100%;
+}
+
+.servban-cont-img>img {
+    height: 224px;
+}
+
+.servban-cont-desc {
+    padding: 5px 15px;
+    width: 70%;
+}
+
+.servban-contdesc-maintext>p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.servban-contdesc-subtext>p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.servban-cont-foot {
+    width: 100%;
+}
+
+button.btn-card-serskill-sprt {
+    color: #fff;
+    font-size: 18px;
+}
+
+a.btn-card-serskill-sprt {
+    background: #6C63FF;
+    background: -webkit-linear-gradient(to right, #1FC0C0, #6C63FF);
+    background: linear-gradient(to right, #1FC0C0, #6C63FF);
+    color: #fff;
+}
+
+.servdet-about {
+    margin-top: 50px;
+}
+
+.servdet-abttext {
+    padding: 5px 15px;
+}
+
+.servdet-abttext>p {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+/* skills-details-serv */
+
+.skills-details-serv {
+    padding: 45px 20px;
+    border-bottom: 1px solid rgba(9, 179, 191, .1);
+}
+
+
+/* skilldetserv-desc-head */
+
+.skilldetserv-desc-head>h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.skilldetserv-img {
+    width: 100%;
+    padding-top: 25%;
+}
+
+.skilldetserv-img-sprt {
+    padding-top: 0px;
+}
+
+.skilldetserv-img>img {
+    height: 265px;
+}
+
+span.base-font-weight--bold {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.blue-gradient-sprt {
+    background: #6C63FF!important;
+}
+
+
+/* media query */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    button.btn-card-serskill-sprt {
+        color: #fff;
+        font-size: 14px !important;
+    }
+}

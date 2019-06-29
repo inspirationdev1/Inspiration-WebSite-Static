@@ -1,0 +1,67 @@
+ul.inspcurvac-jobdesc {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+p.inspabout-text {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}
+
+.insp-available-jobs {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-shadow: -1px 1px 15px -2px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    background: #2193b0;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+
+.inspavjob-btn {
+    font-size: 21px;
+    line-height: 27.3px;
+    background: #eb5e00;
+    color: #fff;
+    box-shadow: rgb(0, 0, 0) 1px 1px 2px 0px;
+    text-align: center;
+    padding: 6px 6px;
+    border-radius: 7px;
+    margin-bottom: 12px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.inspavjob-name {
+    background: #fff;
+    opacity: 60.0%;
+    box-shadow: rgb(0, 0, 0) 1px 1px 2px 0px;
+    color: #eb5e00;
+    text-align: left;
+    font-size: 14px;
+    line-height: 25.3px;
+    padding: 7px;
+    font-family: 'Catamaran', sans-serif;
+    cursor: pointer;
+}
